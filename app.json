@@ -1,0 +1,41 @@
+{
+  "pages":[
+    
+   
+    "pages/root/root",
+    "pages/personal/personal",
+    "pages/merchants/merchants"
+
+  ],
+  
+  "tabBar": {
+"color": "#999999",
+"selectedColor":  "#eb4133",
+"borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/root/root",
+      "text": "首页",
+      "iconPath": "source/1.png",
+      "selectedIconPath": "source/1-selected.png"
+    }, {
+      "pagePath": "pages/merchants/merchants",
+      "text": "商家",
+      "iconPath":"source/2.png",
+      "selectedIconPath":"source/2-selected.png"
+      
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心",
+      "iconPath":"source/5.png",
+      "selectedIconPath": "source/5-selected.png"
+      
+    }]
+  },
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

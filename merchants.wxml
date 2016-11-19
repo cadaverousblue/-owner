@@ -1,0 +1,7 @@
+<!--merchants.wxml-->
+<view>
+<image class = "maps" src = "{{mapsIcon}}" style = "background-color:yellow" > </image>
+
+<image class = "maps" src = "{{messageIcon}}"  > </image>
+你848傻
+</view>
